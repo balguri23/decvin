@@ -1,0 +1,291 @@
+{
+    "records": [
+        {
+            "id":"Penmix-B",
+            "name": "Penmix-B",
+            "imagePath": "images/product/penmixb.jpg",
+			"imageCoverPath": "images/product/cover/penmixb.jpg",
+			"order":11,
+            "tagline": "Vitamins feed supplement Readily absorbable vitamins",
+            "taglineHindi": "विटामिन फ़ीड पूरक! आसानी से अवशोषित विटामिन।!",
+            "taglineTelugu": "విటమిన్లు ఫీడ్ సప్లిమెంట్  తక్షణమే శోషణ విటమిన్లు",
+            "availableQuants" : "It is avaialble in 1kg, 2kgs and 3kgs packets",
+            "desc":["Vitamins feed supplement.","Readily absorbable vitamins.","Contains essential vitamins.","Stimulates appetite and growth.","Corrects vitamin deficiency.","Improves egg production"]
+            ,"descHindi":["विटामिन फ़ीड पूरक!","आसानी से अवशोषित विटामिन।!","आवश्यक विटामिन होते हैं!","भूख और विकास को बढ़ावा देने!","विटामिन की कमी को सही उत्तेजित करता है ।","अंडा उत्पादन में सुधार!"]
+        ,"descTelugu":["విటమిన్లు ఫీడ్ సప్లిమెంట్ .","తక్షణమే శోషణ విటమిన్లు","అవసరమైన విటమిన్లు కలిగి.","ఆకలి మరియు పెరుగుదల ఉద్దీపన.","విటమిన్ లోపం సరిచేస్తున్న.","గుడ్డు ఉత్పత్తి మెరుగుపరుస్తుంది"]
+        
+        },
+        {
+           "id":"penmixBe",
+            "name": "Penmix-BE",
+            "imagePath": "images/product/penmixbe.jpg",
+			"imageCoverPath": "images/product/cover/penmixbe.jpg",
+			"order":13,
+            "tagline": "B-Complex and Vitamin E",
+            "taglineHindi": "बी कॉम्प्लेक्स और विटामिन ई ",
+            "taglineTelugu": "బి కాంప్లెక్స్ మరియు విటమిన్ ఇ",
+            "availableQuants" : "It is avaialble in  2.25kg  packets",
+            "desc":["B-Complex and Vitamin E","Contains Vitamin B1, B6 , B12, Niacin , Calcium pantothenate and Vitamin E" ],
+             "descHindi":["बी कॉम्प्लेक्स और विटामिन ई","विटामिन बी 1, बी 6, बी 12, नियासिन , कैल्शियम pantothenate और विटामिन ई होता है!" ],
+              "descTelugu":["బి కాంప్లెక్స్ మరియు విటమిన్ ఇ","విటమిన్ బి 1, బి 6, బి 12, నియాసిన్ , కాల్షియం సప్లిమెంట్ మరియు విటమిన్ ఇ కలిగి" ]
+   
+         },
+        
+        {
+            "id":"Penmix-DS",
+            "name": "Penmix-DS",
+            "imagePath": "images/product/penmixds.jpg",
+			"imageCoverPath": "images/product/cover/penmixds.jpg",
+			"order":12,
+            "tagline": "Supplies daily requirement of vitamins",
+            "taglineHindi": "विटामिन की दैनिक आवश्यकता आपूर्ति!",
+            "taglineTelugu": "విటమిన్లు రోజువారీ అవసరం సామాగ్రి",
+            "availableQuants" : "It is avaialble in 1kg, 2kgs and 3kgs packets",
+            "desc":["Supplies daily requirement of vitamins.", "Ensures effective feed utilization and weight gain.","Improves egg productions and hatchability."]
+        ,"descHindi":["विटामिन की दैनिक आवश्यकता आपूर्ति!", "अंडा उत्पादन में  और अंडे से निकलने में सुधार!"]
+    ,"descTelugu":["విటమిన్లు రోజువారీ అవసరం సామాగ్రి.", "సమర్థవంతమైన ఫీడ్ వినియోగం మరియు బరువు పెరుగుట నిర్ధారిస్తుంది.","గుడ్డు ప్రొడక్షన్స్ మరియు పొదగబడడానికి మెరుగుపరుస్తుంది."]
+    
+        },
+        {
+            "id":"Phytovin",
+            "name": "Phytovin",
+            "imagePath": "images/product/phytovin.jpg",
+			"imageCoverPath": "images/product/cover/phytovin.jpg",
+			"order":4,
+            "tagline": "Increases phosphorous availability from feed ingredients.",
+            "taglineHindi": "फ़ीड सामग्री से फॉस्फोरस उपलब्धता बढ़ जाती है ।",
+            "taglineTelugu": "ఫీడ్ పదార్థాలు నుండి ఫాస్పరస్ లభ్యత పెరుగుతుంది.",
+            "availableQuants" : "It is avaialble in 1kg, 2kgs and 3kgs packets",
+            "desc":["Increases phosphorous availability from feed ingredients.","Reduces anti-nutritional effect of phytate","Improves minerals absorption and feed conversion"]
+        ,"descHindi":["फ़ीड सामग्री से फॉस्फोरस उपलब्धता बढ़ जाती है ।","phytate के विरोधी पोषण प्रभाव कम कर देता है!","खनिज अवशोषण और चारा रूपांतरण बढ़ाता है!"]
+        ,"descTelugu":["ఫీడ్ పదార్థాలు నుండి ఫాస్పరస్ లభ్యత పెరుగుతుంది.","Phytate యొక్క వ్యతిరేక పోషక ప్రభావాన్ని తగ్గిస్తుంది","ఖనిజాలు శోషణ మరియు మేత మార్పిడి మెరుగుపరుస్తుంది."]
+        
+        },
+        {
+            "id":"SeLact",
+            "name": "SeLact",
+            "imagePath": "images/product/selact.jpg",
+			"imageCoverPath": "images/product//selact.jpg",
+			"Order":3,
+            "tagline": "Anti-oxidants and Probiotics feed supplement",
+            "taglineHindi": "एंटी - ऑक्सीडेंट और प्रोबायोटिक्स पूरक",
+            "taglineTelugu": "వ్యతిరేక ఆక్సిడెంట్లు మరియు ప్రోబయోటిక్స్ ఫీడ్ సప్లిమెంట్",
+            "availableQuants" : "It is avaialble in 1kg, 2kgs and 3kgs packets",
+            "desc":["Anti-oxidants and Probiotics feed supplement.", "Enhances immunity, builds disease resistance in the birds Reduces mortality.", "Improves fertility and hatchability improves ability of poultry to resist respiratory challenges Enhances poultry productivity"]
+, "descHindi":["एंटी - ऑक्सीडेंट और प्रोबायोटिक्स पूरक", "प्रतिरक्षा, पक्षियों में रोग प्रतिरोध बढाता है और मृत्यु दर कम कर देता है!", "उर्वरता में सुधार, अंडे से निकलने में सुधार, सांस की चुनौतियों का विरोध करने के लिए पोल्ट्री की क्षमता में सुधार और पोल्ट्री उत्पादकता बढ़ाता है!"]
+, "descTelugu":["వ్యతిరేక ఆక్సిడెంట్లు మరియు ప్రోబయోటిక్స్ ఫీడ్ సప్లిమెంట్.", "మెరుగుపరచు రోగనిరోధక శక్తి , వ్యాధి నిరోధక పక్షులు మరణాల తగ్గిస్తుంది రూపొందించారు.", "సంతానోత్పత్తి మెరుగుపరుస్తుంది మరియు పొదగబడడానికి శ్వాస సవాళ్లు ఎదుర్కొనేందుకు పౌల్ట్రీ సామర్థ్యాన్ని మెరుగుపరుస్తుంది పౌల్ట్రీ ఉత్పాదకత పెంచుతుంది."]
+
+        },
+        {
+            "id":"Secura",
+            "name": "Secura",
+            "imagePath": "images/product/secura.jpg",
+			"imageCoverPath": "images/product/cover/secura.jpg",
+			"order":1,
+            "tagline": "Fortified Anti-oxidants feed supplement",
+            "taglineHindi": "दृढ़ एंटी फ़ीड पूरक",
+            "taglineTelugu": "బలవర్థకమైన యాంటీ ఆక్సిడెంట్లు ఫీడ్ సప్లిమెంట్",
+            "availableQuants" : "It is avaialble in 1kg, 2kgs and 3kgs packets",
+            "desc":["Fortified Anti-oxidants feed supplement.","Enhances immunity, builds disease resistance in the birds Reduces mortality.","Plays important role in fertility and hatchability."]
+       ,"descHindi":["दृढ़ एंटी फ़ीड पूरक","प्रतिरक्षा, पक्षियों में रोग प्रतिरोध बढाता है और मृत्यु दर कम कर देता है!","उर्वरता में सुधार, अंडे से निकलने में सुधार"]
+       ,"descTelugu":["బలవర్థకమైన యాంటీ ఆక్సిడెంట్లు ఫీడ్ సప్లిమెంట్.","మెరుగుపరచు రోగనిరోధక శక్తి , వ్యాధి నిరోధక పక్షులు మరణాల తగ్గిస్తుంది రూపొందించారు.","సంతానోత్పత్తి మరియు పొదగబడడానికి ముఖ్యమైన పాత్ర పోషిస్తుంది."]
+       
+        
+        },
+        {
+           "id":"SeLox",
+            "name": "SeLox",
+            "imagePath": "images/product/selox.jpg",
+			"imageCoverPath": "images/product/cover/selox.jpg",
+			"order":2,
+            "tagline": "Anti-oxidants and Probiotics feed supplement",
+            "taglineHindi": "विरोधी oxidants और प्रोबायोटिक्स फ़ीड पूरक",
+            "taglineTelugu": "వ్యతిరేక ఆక్సిడెంట్లు మరియు ప్రోబయోటిక్స్ ఫీడ్ సప్లిమెంట్",
+            "availableQuants" : "It is avaialble in 1kg, 2kgs and 3kgs packets",
+            "desc":["Anti-oxidants and Probiotics feed supplement.","immunity, builds disease resistance in the birds Reduces mortality.","Plays and important role in fertility and hatchability of birds.","Enhances poultry productivity"]
+ ,"descHindi":["विरोधी oxidants और प्रोबायोटिक्स फ़ीड पूरक","प्रतिरक्षा, पक्षियों में रोग प्रतिरोध बढाता है और मृत्यु दर कम कर देता है!","उर्वरता में सुधार, अंडे से निकलने में सुधार","पोल्ट्री उत्पादकता बढ़ाता हैSS!"]
+ ,"descTelugu":["వ్యతిరేక ఆక్సిడెంట్లు మరియు ప్రోబయోటిక్స్ ఫీడ్ సప్లిమెంట్.","రోగనిరోధక శక్తి, ఆధారమై పక్షులు వ్యాధి నిరోధకత మరణాల తగ్గిస్తుంది.","నాటకాలు మరియు సంతానోత్పత్తి మరియు పక్షుల పొదగబడడానికి ముఖ్యమైన పాత్ర.","పౌల్ట్రీ ఉత్పాదకత పెంచుతుంది."]
+ 
+        },
+        {
+            "id":"Decvin",
+            "name": "Decvin",
+            "imagePath": "images/product/decvin.jpg",
+			"imageCoverPath": "images/product/cover/decvin.jpg",
+			"order":5,
+            "tagline": "Water soluble vitamins supplement",
+            "taglineHindi": "पानी में घुलनशील विटामिन के पूरक",
+            "taglineTelugu": "నీటిలో కరిగే విటమిన్లు అనుబంధం",
+            "availableQuants" : "It is avaialble in 1kg, 2kgs and 3kgs packets",
+              "desc":["Water soluble vitamins supplement.","Readily absorbable vitamins.","Contains 10 essential vitamins and 2 amino acids.","Stimulates appetite and growth.","Corrects vitamin deficiency Improves egg production"]
+            ,"descHindi":["पानी में घुलनशील विटामिन के पूरक","आसानी से अवशोषित विटामिन","आवश्यक विटामिन और 2 अमीनो एसिड होता है!","भूख और विकास को बढ़ावा","विटामिन की कमी को सही और अंडा उत्पादन बढ़ाता है!"]
+            ,"descTelugu":["నీటిలో కరిగే విటమిన్లు అనుబంధం.","తక్షణమే శోషణ విటమిన్లు.","10 ముఖ్యమైన విటమిన్లు మరియు 2 అమైనో ఆమ్లాలు కలిగి.","ఆకలి మరియు పెరుగుదల ఉద్దీపన.","సరిచేస్తున్న విటమిన్ లోపం గుడ్ల ఉత్పత్తి మెరుగుపరుస్తుంది"]
+            
+        },
+       
+        {
+            "id":"DecvinSE",
+            "name": "Decvin-SE",
+            "imagePath": "images/product/decvinse.jpg",
+			"imageCoverPath": "images/product/cover/decvinse.jpg",
+			"order":4,
+            "tagline": "Anti-oxidant feed supplement Enhances immunity, builds disease resistance in the birds.",
+            "taglineHindi": "विरोधी oxidants फ़ीड पूरक, प्रतिरक्षा, पक्षियों में रोग प्रतिरोध बढाता है!",
+            "taglineTelugu": "అవరోధక ఫీడ్ సప్లిమెంట్ రోగనిరోధక శక్తి పెంచుతుంది, పక్షులు వ్యాధి నిరోధకత పెంచుతుంది.",
+            "availableQuants" : "It is avaialble in 1kg, 2kgs and 3kgs packets",
+            "desc":["Anti-oxidant feed supplement.","Enhances immunity, builds disease resistance in the birds."," Reduces mortality"]
+    ,"descHindi":["विरोधी oxidants फ़ीड पूरक","प्रतिरक्षा, पक्षियों में रोग प्रतिरोध बढाता है!","मृत्यु दर कम कर देता है!"]
+    ,"descTelugu":["అవరోధక ఫీడ్ సప్లిమెంట్ రోగనిరోధక శక్తి పెంచుతుంది.","రోగనిరోధక శక్తి పెంచుతుంది పక్షులు వ్యాధి నిరోధకత ఆధారమై."," మరణాల తగ్గిస్తుంది"]
+    
+            
+        },
+        {
+           "id":"DMax",
+            "name": "D-Max",
+            "imagePath": "images/product/dmax.jpg",
+			"imageCoverPath": "images/product/cover/dmax.jpg",
+			"Order":7,
+            "tagline": "Water soluble Vitamin D3 Readily absorbabale Vitamin D3",
+            "taglineHindi": "पानी में घुलनशील विटामिन डी3, आसानी से अवशोषित विटामिन डी3",
+            "taglineTelugu": "నీటిలో కరిగే విటమిన్ డి 3, తక్షణమే absorbabale విటమిన్ డి 3",
+            "availableQuants" : "It is avaialble in 1kg, 2kgs and 3kgs packets",
+            "desc":["Water soluble Vitamin D3.","Readily absorbabale Vitamin D3.","Reduces egg shell breakages.","Prevents Vitamin D3 deficiency and  Rickets .","Alleviates leg problems."]
+      ,"descHindi":["पानी में घुलनशील विटामिन डी3","आसानी से अवशोषित विटामिन डी3"," अंडे का खोल टूट-फूट कम कर देता है!","विटामिन डी3 की कमी और रिकेट्स कोरोकता है!","पैर की समस्याओं को घटाना"]
+      ,"descTelugu":["నీటిలో కరిగే విటమిన్ డి 3.","తక్షణమే absorbabale విటమిన్ డి 3.","గుడ్డు షెల్ breakages తగ్గిస్తుంది.","విటమిన్ డి 3 లోపం మరియు రికెట్స్ నిరోధిస్తుంది.","లెగ్ సమస్యలు తగ్గిస్తుంది."]
+        },
+        {
+            "id":"D-Max200",
+            "name": "D-Max 200",
+            "imagePath": "images/product/dmax200.jpg",
+			"imageCoverPath": "images/product/cover/dmax200.jpg",
+			"order":8,
+            "tagline": "Vitamin D3 feed supplement Reduces egg  breakage.",
+            "taglineHindi": "विटामिन डी 3 फ़ीड पूरक, अंडे का टूट-फूट कम कर देता है!",
+            "taglineTelugu": "విటమిన్ డి 3 ఫీడ్ సప్లిమెంట్ గుడ్డు విఘటన తగ్గిస్తుంది.",
+            "availableQuants" : "It is avaialble in 1kg, 2kgs and 3kgs packets",
+            "desc":["Vitamin D3 feed supplement.","Reduces egg  breakage.","Prevents Vitamin D3 deficiency and Rickets Alleviates leg problems."]
+  , "descHindi":["विटामिन डी 3 फ़ीड पूरक"," अंडे का टूट-फूट कम कर देता है!","विटामिन डी 3 की कमी और रिकेट्स को रोकता है, पैर की समस्याओं को घटाना"]
+  , "descTelugu":["విటమిన్ డి 3 ఫీడ్ సప్లిమెంట్.","గుడ్డు విఘటన తగ్గిస్తుంది.","విటమిన్ డి 3 లోపం మరియు రికెట్స్ alleviates లెగ్ సమస్యలు నిరోధిస్తుంది."]
+  
+        },
+        {
+            "id":"D-Max500",
+            "name": "D-Max 500",
+            "imagePath": "images/product/dmax500.jpg",
+			"imageCoverPath": "images/product/cover/dmax500.jpg",
+			"order":9,
+            "tagline": "Vitamin D3 feed supplements Reducing egg breakage.",
+            "taglineHindi": "विटामिन डी 3 फ़ीड पूरक और रिकेट्स को रोकता है.",
+             "taglineTelugu": "విటమిన్ డి 3 ఫీడ్ మందులు గుడ్డు రద్దును తగ్గించడం.",            
+            "availableQuants" : "It is avaialble in 1kg, 2kgs and 3kgs packets",
+            "desc":["Vitamin D3 फ़ीड पूरक","Reducing egg breakage.","Prevents Vitamin D3 deficiency and Rickets Alleviates leg problems."]
+           , "descHindi":["विटामिन डी 3 फ़ीड पूरक"," अंडे का टूट-फूट कम कर देता है!","विटामिन डी 3 की कमी और रिकेट्स को रोकता है, पैर की समस्याओं को घटाना"]
+   ,"descTelugu":["విటమిన్ డి 3 ఫీడ్ సప్లిమెంట్.","గుడ్డు రద్దును తగ్గించడం.","విటమిన్ డి 3 లోపం మరియు రికెట్స్ alleviates లెగ్ సమస్యలు నిరోధిస్తుంది"]
+            
+        },
+        {
+            "id":"TOX-MOS",
+            "name": "TOX-MOS",
+            "imagePath": "images/product/toxmos.jpg",
+			"imageCoverPath": "images/product/cover/toxmos.jpg",
+			"order":13,
+            "tagline": "Toxin binding feed supplement Reduces intestinal colonization of pathogens.",
+            "taglineHindi": " विष बाध्यकारी फ़ीड पूरक, रोगाणुओं की आंतों उपनिवेशन कम कर देता है!",
+            "taglineTelugu": "టాక్సిన్ బైండింగ్ ఫీడ్ సప్లిమెంట్ వ్యాధికారక పేగు వలసరాజ్య తగ్గిస్తుంది.",
+            "availableQuants" : "It is avaialble in 1kg, 2kgs and 3kgs packets",
+            "desc":["Toxin binding feed supplement.","Reduces intestinal colonization of pathogens.","Binds toxins and minimizes toxin effect Improves poultry performance"]
+            ,"descHindi":[" विष बाध्यकारी फ़ीड पूरक","रोगाणुओं की आंतों उपनिवेशन कम कर देता है!","विषाक्त पदार्थों को बांधता है और कम से कम विष प्रभाव पोल्ट्री प्रदर्शन बढ़ाता है!"]
+            ,"descTelugu":["టాక్సిన్ బైండింగ్ ఫీడ్ సప్లిమెంట్.","వ్యాధికారక పేగు వలసరాజ్య తగ్గిస్తుంది.","విషాన్ని బంధిస్తుంది మరియు తగ్గిస్తుంది టాక్సిన్ ప్రభావం పౌల్ట్రీ ప్రదర్శన మెరుగుపరుస్తుంది."]
+            
+        },
+        
+        
+       {
+           "id":"Penvit",
+            "name": "Penvit",
+            "imagePath": "images/product/penvit.jpg",
+			"imageCoverPath": "images/product/cover/penvit.jpg",
+			"order":6,
+            "tagline": "Water soluble Vitamin AD3,E,C,B12 concentrate.",
+            "taglineHindi": "पानी घुलनशील विटामिन एडी 3, ई, सी, बी 12 ध्यान केंद्रित।",
+            "taglineTelugu": "నీటిలో కరిగే విటమిన్ AD3 , ఇ, సి , బి 12 గాఢత.",
+            "availableQuants" : "It is avaialble in 1kg, 2kgs and 3kgs packets",
+            "desc":["Water soluble Vitamin AD3,E,C,B12 concentrate.","Enables to overcome stress.", "Improves body resistance  to combat disease.","Maximizes weight gain in broilers.","Maintains high rate of egg production"]
+       ,"descHindi":["पानी घुलनशील विटामिन एडी 3, ई, सी, बी 12 ध्यान केंद्रित।.","तनाव को दूर करने में सक्षम बनाता है।", "रोग का मुकाबला करने के लिए शरीर प्रतिरोध में सुधार।","ब्रोइलर में वजन बढ़ता है।","अंडे का उत्पादन उच्च दर बनाए रखता है।"]
+       ,"descTelugu":["నీటిలో కరిగే విటమిన్ AD3 , ఇ, సి , బి 12 గాఢత.","ఒత్తిడి అధిగమించడానికి అనుమతిస్తుంది. "," వ్యాధి పోరాడేందుకు శరీరం నిరోధకతను మెరుగుపరుస్తుంది. "," బ్రాయిలర్ కోళ్ళ లో బరువు పెరుగుట పెంచుకుంటుంది. " ," గుడ్డు ఉత్పత్తి యొక్క అధిక రేటు నిర్వహిస్తుంది"]
+        },
+        {
+           "id":"citravin",
+            "name": "Citravin",
+            "imagePath": "images/product/citravin.jpg",
+			"imageCoverPath": "images/product/cover/citravin.jpg",
+			"order":15,
+            "tagline": "Alkaline Citrate Powder",
+            "taglineHindi": "क्षारीय साइट्रेट पाउडर",
+            "taglineTelugu": "ఆల్కలీన్ సిట్రేట్ పౌడర్",
+            "availableQuants" : "It is avaialble in 1kg, 2kgs and 3kgs packets",
+            "desc":["Alkaline Citrate Powder.","Each Kg containd Di sodium hydrogen citrate 333g"]
+     ,"descHindi":["क्षारीय साइट्रेट पाउडर.","प्रत्येक किलोग्राम Di सोडियम साइट्रेट हाइड्रोजन 333g शामिल"]
+     ,"descTelugu":["ఆల్కలీన్ సిట్రేట్ పౌడర్.","ప్రతి కేజీల డి సోడియం హైడ్రోజన్ సిట్రేట్ 333g containd"]
+        },
+        
+        {
+           "id":"oneton",
+            "name": "One Ton",
+            "imagePath": "images/product/oneton.jpg",
+			"imageCoverPath": "images/product/cover/oneton.jpg",
+			"order":10,
+            "tagline": "Contains Penmix Plus, Decvin-TM and CLPT",
+            "taglineHindi": "एक टन पैक Penmix इसके अलावा, Decvin - टीएम और CLPT के तीन अलग-अलग पैक में शामिल",
+            "taglineTelugu": "Penmix ప్లస్, Decvin - TM మరియు CLPT కలిగి",
+            "availableQuants" : "It is avaialble in  2.25kg  packets",
+            "desc":["One Ton Pack contains three separate packs of Penmix Plus, Decvin-TM and CLPT" ],
+            "descHindi":["एक टन पैक Penmix इसके अलावा, Decvin - टीएम और CLPT के तीन अलग-अलग पैक में शामिल" ],
+            "descTelugu":["ఒక టన్ను ప్యాక్ Penmix ప్లస్, Decvin - TM మరియు CLPT మూడు ప్రత్యేక పధకాలను కలిగి" ],            
+            "products":[
+                {
+           "id":"penmixPlus",
+            "name": "Penmix Plus",
+            "imagePath": "images/product/penmixplus.jpg",
+			"imageCoverPath": "images/product/cover/penmixplus.jpg",
+			"order":17,
+            "tagline": "AD3 EK, B-Complex Vitamins and Lactobacillus",
+            "availableQuants" : "It is avaialble in  2.25kg  packets",
+            "desc":["AD3 EK, B-Complex Vitamins and Lactobacillus","Contains Vitamin A, D3 , E, K , B1 , B2 , B6, Niacin , Cal. D Pantothenate, Folic Acid, Vitamin B12, Lactobacillus" ]
+            ,"descHindi":["AD3 EK, B-Complex Vitamins and Lactobacillus","Contains Vitamin A, D3 , E, K , B1 , B2 , B6, Niacin , Cal. D Pantothenate, Folic Acid, Vitamin B12, Lactobacillus" ]
+            ,"descTelugu":["AD3 EK, బి- కాంప్లెక్స్ విటమిన్లు మరియు లాక్టోబాసిల్లస్","కలిగి విటమిన్ ఎ, డి 3 , E, K , B1, B2, B6, నియాసిన్ , కాల్ . డి Pantothenate, ఫోలిక్ యాసిడ్ , విటమిన్ బి 12, లాక్టోబాసిల్లస్" ]
+            },
+             {
+            "id":"DecvinTM",
+            "name": "Decvin-TM",
+            "imagePath": "images/product/decvintm.jpg",
+			"imageCoverPath": "images/product/cover/decvintm.jpg",
+			"order":18,
+            "tagline": "Manganese, Zinc , Iron, copper loadine, Selenium",
+            "availableQuants" : "It is avaialble in 1kg, 2kgs and 3kgs packets",
+              "desc":["Manganese, Zinc , Iron, copper loadine, Selenium"],
+              "descHindi":["Manganese, Zinc , Iron, copper loadine, Selenium"],
+              "descTelugu":["మాంగనీస్, జింక్ , ఐరన్, రాగి loadine, సెలీనియం"]
+            
+            
+            
+            
+        },{
+           "id":"clpt",
+            "name": "CLPT",
+            "imagePath": "images/product/clpt.jpg",
+			"imageCoverPath": "images/product/cover/clpt.jpg",
+			"order":18,
+            "tagline": "Choline Chloride",
+            "availableQuants" : "It is avaialble in 1kg, 2kgs and 3kgs packets",
+            "desc":["Choline Chloride","Liver Protectants","Phytase","Toxin Binders"],
+            "descHindi":["Choline Chloride","Liver Protectants","Phytase","Toxin Binders"],
+            "descTelugu":["విటమిన్ బి కాంప్లెక్స్ సముదాయములోని క్లోరైడ్","లివర్ protectants","Phytase","టాక్సిన్ బైండర్లు"]
+        }
+            
+            ]
+        }
+        
+        
+    ]
+}

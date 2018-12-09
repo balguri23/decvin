@@ -1,0 +1,174 @@
+<script>
+    
+</script>
+
+<div class="row">
+    <div class="col-md-8" ng-switch on="language">
+        <div class="panel-group container"  ng-switch on="selectedTag">
+            <div class="panel panel-primary" ng-if="permissions.FAQS" ng-switch-when="FAQS" >
+      <div class="panel-heading">FAQS</div>
+      <div class="panel-body">FAQS</div>
+    </div>
+    <div class="panel panel-primary" ng-if="permissions.careers" ng-switch-when="Careers">
+      <div class="panel-heading">{{getTranslation('careers')|uppercase}}</div>
+      <div class="panel-body"> Careers  </div>
+    </div>
+    <div class="panel panel-primary" ng-if="permissions.productvideos" ng-switch-when="ProductVideos">
+      <div class="panel-heading">{{getTranslation('productVideos')|uppercase}}</div>
+      <div class="panel-body">Product  Videos </div>
+    </div>
+    <div class="panel panel-primary"  ng-switch-when="RouteMap">
+      <div class="panel-heading">{{getTranslation('routeMap')|uppercase}}</div>
+      <div class="panel-body">
+          <div id="map" ng-init="getLocation()"></div>
+      </div>
+    </div>
+            
+     <div class="panel panel-primary"  ng-switch-when="BusinessHours">
+      <div class="panel-heading"> {{getTranslation('businessHours')|uppercase}}</div>
+      <div class="panel-body">
+          <p>Monday to Saturday - 9 AM to 5 PM
+          </p><p>
+              Except National Holidays.
+          </p>
+          <div class="well-lg">                
+                <p><i class="icon-map-marker"></i> <strong>{{ getTranslation('address')}}</strong> : M/S Decvin Laboratories Pvt Ltd, 5-36/217, Prashanthi Nagar, I.D.A, Kukatpally, Hyderabad 500072</p>
+                <p><i class="icon-phone"></i> <strong>{{ getTranslation('phone')}}</strong> : 040-4854 1655 </p>
+                <p><i class="icon-envelope"></i> <strong>{{getTranslation('email')}}</strong> : contactus@decvinlabs.com</p>
+            </div>
+          
+      </div>
+    </div>       
+  </div>
+        <span class="row" ng-if="selectedTag"></span>
+        <div class="panel-group container">
+        <div class="panel panel-primary  swither" >
+            
+            
+            <div class="panel-heading">{{getTranslation('reachus')|uppercase}}</div>
+            <!--<h2 style="text-align: center">  About Us </h2>--> 
+            <div  class="panel-body">
+                <form name="htmlform" id="feedbackForm" method="post" action="sendmail.php">
+<table width="450px">
+    <tr>
+        <td valign="top">
+           <label for="Type" ng-class="{error: htmlform.ContactType.$invalid}">{{getTranslation('type')}} *</label>         
+  
+        </td><td><select name="ContactType" ng-model="ContactType" id="type" required>
+                <option value="Feedback" >{{getTranslation('feedback')}} </option>
+                <option value="Comments">{{getTranslation('comment')}} </option>
+                <option value="Enquiry">{{getTranslation('enquiry')}} </option>
+                <option value="Complaints">{{getTranslation('complaint')}}</option>
+                <option value="Customerservice">{{getTranslation('customerService')}}</option>
+            </select>   <h4 id="productDetails" name="product"></h4> </td>
+</tr>
+<tr>
+ <td valign="top">
+  <label for="first_name" ng-class="{error: htmlform.name.$invalid}">{{getTranslation('name')}} *</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="name" ng-model="name" maxlength="50" size="30" required>
+ </td>
+</tr>
+ 
+
+<tr>
+ <td valign="top">
+  <label for="email" ng-class="{error: htmlform.email.$invalid}" >{{getTranslation('emailAddress')}} *</label>
+ </td>
+ <td valign="top">
+  <input  type="email" name="email" ng-model="email" maxlength="80" size="30" required>
+ </td>
+ 
+</tr>
+<tr>
+ <td valign="top">
+  <label for="telephone" ng-class="{error: htmlform.mobile.$invalid}">{{getTranslation('mobileNumber')}} *</label>
+ </td>
+ <td valign="top">
+     <input  type="tel" ng-model="mobile" name="mobile" maxlength="10" required>
+ </td>
+</tr>
+<tr>
+ <td valign="top">
+  <label for="comments" ng-class="{error: htmlform.comments.$invalid}">{{getTranslation('comment')}} *</label>
+ </td>
+ <td valign="top">
+     <textarea  ng-model="comments" name="comments" maxlength="1000" cols="30" rows="6" placeholder="Enter Comments" required ></textarea>
+ </td>
+ 
+</tr>
+<tr>
+ <td colspan="2" style="text-align:center">
+     <input type="button" value="Submit" ng-click="sendmail()">
+ </td>
+</tr>
+</table>
+</form>
+            </div>
+        </div>
+   
+        
+        
+  </div>
+    </div>
+    <div class="col-md-4">
+        <div class="col-md-3" style="width:85%">
+							<aside class="sidebar">
+
+								<div class="panel-group" id="accordion">
+									<div class="panel panel-default">
+										<div class="panel-heading">
+											<h4 class="panel-title">
+												<!--<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">-->
+												
+													{{getTranslation('reachus')|uppercase}} 
+												<!--</a>-->
+											</h4>
+										</div>
+										<div class="list-group">
+    <a href="#/ContactUs/FAQS" class="list-group-item" ng-if="permissions.FAQS" ng-class="selectedTag=='FAQS'?'active':''">
+      <h4 class="list-group-item-heading">FAQS</h4>      
+    </a>
+    <a href="#/ContactUs/Careers" class="list-group-item" ng-if="permissions.careers" ng-class="selectedTag=='Careers'?'active':''">
+      <h4 class="list-group-item-heading">{{getTranslation('careers')}}</h4>
+     
+    </a>
+    <a href="#/ContactUs/ProductVideos" class="list-group-item" ng-if="permissions.productvideos" ng-class="selectedTag=='ProductVideos'?'active':''">
+      <h4 class="list-group-item-heading">{{getTranslation('productVideos')}}</h4>
+      
+    </a>
+    <a href="#/ContactUs/RouteMap" class="list-group-item"  ng-class="selectedTag=='RouteMap'?'active':''">
+        <h4 class="list-group-item-heading">{{getTranslation('routeMap')}}</h4>
+      
+    </a>
+    <a href="#/ContactUs/BusinessHours" class="list-group-item" ng-class="selectedTag=='BusinessHours'?'active':''">
+        <h4 class="list-group-item-heading">{{getTranslation('businessHours')}}</h4>
+      
+    </a>
+  </div>
+									</div>
+									
+									
+								</div>
+
+								
+
+								
+
+								<hr>
+
+							
+
+							</aside>
+						</div>
+    
+    
+    </div>
+    
+</div>
+<span class="row" ></span>
+
+<div class="container" ng-switch on="language"  >
+        
+</div>

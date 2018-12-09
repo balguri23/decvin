@@ -1,0 +1,296 @@
+<div class="row">
+    <div class="col-md-8" ng-switch on="language">
+        <div class="panel-group container" ng-switch on="selectedTag">
+            <div class="panel panel-primary" ng-switch-when="Slogan" >
+                <div class="panel-heading">{{getTranslation('Slogan')|uppercase}}</div>
+                <div class="panel-body" ng-switch on="language"> 
+                    <div ng-switch-when="english"> Our products provide a secured path for your success. </div>
+                    <div ng-switch-when="hindi"> हमारे उत्पादों को अपनी सफलता के लिए एक सुरक्षित मार्ग प्रदान करते हैं. </div>
+                    <div ng-switch-when="telugu"> మా ఉత్పత్తులు మీ విజయానికి సురక్షిత సోపానాలు. </div>
+                </div>
+            </div>
+            <div class="panel panel-primary" ng-switch-when="Mission">
+                <div class="panel-heading">{{getTranslation('Mission')|uppercase}}</div>
+                <div class="panel-body" ng-switch on="language" >
+                    <div ng-switch-when="english"> Our commitment is to offer quality products and services at competitive prices to create the best value for our customers.</div>
+                    <div ng-switch-when="hindi"> हमारी प्रतिबद्धता हमारे ग्राहकों के लिए सबसे अच्छा मूल्य बनाने के लिए प्रतिस्पर्धी कीमतों पर गुणवत्ता के उत्पादों और सेवाओं की पेशकश करने के लिए है.</div>
+                    <div ng-switch-when="telugu"> మేటి ఉత్పాదనలు, సేవలను అందుబాటు ధరలో అందిస్తూ వినియోగదారులకు లాభసాటిగా ఉండడమే మాకు నిబద్ధత.</div>
+                </div>
+            </div>
+            <div class="panel panel-primary"  ng-switch-when="Vision">
+                <div class="panel-heading">{{getTranslation('Vision')|uppercase}}</div>
+                <div class="panel-body" ng-switch on="language">
+                    <div ng-switch-when="english"> Our vision is to bring the best quality veterinary products within your reach. </div>
+                    <div ng-switch-when="hindi"> हमारी दृष्टि अपनी पहुंच के भीतर अच्छी गुणवत्ता पशु उत्पादों को लाने के लिए है. </div>
+                    <div ng-switch-when="telugu"> నాణ్యమైన జంతుసంబంధ ఉత్పాదనలను అందరి అందుబాటులోకి తేవడం. </div>
+                </div>
+            </div>
+            <div class="panel panel-primary"  ng-switch-when="Culture">
+                <div class="panel-heading">{{getTranslation('Culture')|uppercase}}</div>
+                <div class="panel-body" ng-switch on="language">
+                    <div ng-switch-when="english">We treat our colleagues, clients and customers as our family.</div>
+                    <div ng-switch-when="hindi">हम हमारे सहयोगियों और ग्राहकों को परिवार मानते हैं ।</div>
+                    <div ng-switch-when="telugu">ఖాతాదారులను, సహచరులను, సహోద్యోగులను మరియు వినియోగదారులను మా కుటుంబసభ్యులుగా చూడడం.</div>
+                </div>
+            </div>
+            <div class="panel panel-primary"  ng-switch-when="CoreValues">
+                <div class="panel-heading">{{getTranslation('CoreValues')|uppercase}}</div>
+                <div class="panel-body" ng-switch on="language">
+                    <div ng-switch-when="english">
+                        <ol style="list-style-type: disc;">
+                            <li> Customer Commitment and Focus </li>
+                            <li> Personal Integrity and Accountability </li>
+                            <li> Quality Products and Services </li>
+                            <li> Quick and Efficient Communication </li>
+                            <li> Emphasize and Encourage Teamwork </li>
+                            <li> Respect for fellow beings and animals alike </li>
+                            <li> Passionate and Determined Will to Win </li>
+
+                        </ol>
+                    </div>.
+                    <div ng-switch-when="hindi">
+                        <ol style="list-style-type: disc;">
+                            <li> ग्राहक प्रतिबद्धता और फोकस </li>
+                            <li> व्यक्तिगत ईमानदारी और जवाबदेही </li>
+                            <li> गुणवत्ता उत्पाद और सेवाएँ </li>
+                            <li> त्वरित और कुशल संचार </li>
+                            <li> टीम वर्क पर जोर देना और प्रोत्साहित करना </li>
+                            <li> साथी प्राणियों और जानवरों के लिए सम्मान जीत </li>
+                            <li> भावुक और निर्धारित जीत के लिए मन </li>
+
+                        </ol>
+                    </div>
+                    <div ng-switch-when="telugu">
+                        <ol style="list-style-type: disc;">
+                            <li> వినియోగదారులపట్ల అంకితభావం </li>
+                            <li> వ్యక్తిగత సమగ్రత, జవాబుదారీతనం </li>
+                            <li> నాణ్యమైన ఉత్పాదనలు, సేవలు </li>
+                            <li> త్వరితమైన, సమర్థవంతమైన సమాచారవితరణ </li>
+                            <li> జట్టుగా కృషిచేయడానికై ప్రోత్సాహం </li>
+                            <li> సాటిజంతువులు, మనుష్యులపై సమభావన </li>
+                            <li> విజయానికై అభిరుచి, అవిరళ కృషి  </li>
+
+                        </ol>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel panel-primary management"  ng-switch-when="ManagementTeam" style="overflow: visible;">
+                <div class="panel-heading">{{getTranslation('ManagementTeam')|uppercase}}</div>
+                <div class="panel-body" ng-switch on="language">
+                    <div > 
+                        
+                        
+<div class="row">
+                            <div class="col-md-1 image ">
+                                <img src="images/nageshwar.jpg" alt="" class="img-circle" style="float: left;max-width: 100%;width: 40%;min-width: 30px;"> 
+                                <span><img src="images/nageshwar.jpg" alt="" class="img-circle" style="width: 100%;min-width: 60px;z-index: 555"> 
+                                </span>
+                            </div>
+                            <div > 
+                                <p ng-switch-when="english">Dr. N. Nageshwar Rao is a veterinary doctor with more than 40 years of experience in the field of poultry. He is a well-recognized and respected person in the field of poultry. He has helped many people set up and stabilize poultry farms.
+                                </p> 
+                                <p ng-switch-when="hindi">डॉ एन नागेश्वर राव पोल्ट्री के क्षेत्र में अनुभव के 40 से अधिक वर्षों के साथ एक पशु चिकित्सक हैI उन्हे पोल्ट्री के क्षेत्र में अच्छी तरह से मान्यता प्राप्त है और वे इस क्षेत्र के सम्मानित व्यक्ति है । उनहोने कई लोगों की मदद की और कई पोल्ट्री फार्मों को स्थिर किया ।
+                                </p>
+                                <p ng-switch-when="telugu"> గౌరవనీయులైన డాక్టర్ N.నాగేశ్వర్ రావు గారు కోళ్ళ పెంపక రంగంలో 40 సంవత్సరాల పైగా అనుభవనైపుణ్యంతో గుర్తింపు పొందిన జంతువైద్యులు. తన సేవలతో అనేకమంది ఈ పరిశ్రమలోని రైతులు కోళ్ళపెంపక కేంద్రాలను ఏర్పాటు చేసి వాటిని స్థిరీకరించేందుకు సహాయపడ్డారు.
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="row">
+                            <div class="col-md-1 image">
+                                <img src="images/ramesh.jpg" alt="" class="img-circle" style="float: left;max-width: 100%;width: 40%;min-width: 30px;"> 
+                            <span><img src="images/ramesh.jpg" alt="" class="img-circle" style="width: 100%;min-width: 60px;z-index: 555"> 
+                                </span>
+                            </div>
+                            <div > <p ng-switch-when="english">
+                                    Dr.T. Ramesh is a veterinary doctor and an advisor with more than 25 years of experience in the field of poultry. He advises the clients on the issues related to poultry.
+                                </p>
+                            <p ng-switch-when="hindi">
+                            Dr.T. रमेश एक पशु चिकित्सक और पोल्ट्री के क्षेत्र में अनुभव के 25 से अधिक वर्षों के साथ एक सलाहकार है. वह मुर्गी पालन से संबंधित मुद्दों पर ग्राहकों को सलाह देतें है। </p>          
+                    <p ng-switch-when="telugu">
+                            డాక్టర్ T.రమేష్ గారు 25 సంవత్సరాల పైగా అనుభవం గల జంతువైద్యులు మరియు సలహాదారులు. తన సలహాలు, సూచనలతో ఖాతాదారుల సమస్యలను పరిష్కరిస్తుంటారు. 
+                        </p>
+                            
+                            </div>
+                        </div>
+						
+						<div class="row">
+                            <div class="col-md-1 image ">
+                                <img src="images/balaswamy.jpg" alt="" class="img-circle" style="float: left;max-width: 100%;width: 40%;min-width: 30px;"> 
+                                <span><img src="images/balaswamy.jpg" alt="" class="img-circle" style="width: 100%;min-width: 60px;z-index: 555"> 
+                                </span>
+                            </div>
+                            <div > 
+                                <p ng-switch-when="english">Dr. K. Balaswamy is a veterinary doctor with more than 35 years of experience in the field of poultry. He is a well-recognized and respected person in the field of poultry. He has helped many people set up and stabilize poultry farms. He is the President of national egg and chicken promotion council (N.E.C.P.C). He is also the advisor at National Egg Coordination Committee (N.E.C.C).
+                                </p> 
+                                <p ng-switch-when="hindi">&#2337;&#2377;&#2404; &#2325;&#2375;&#2404; &#2348;&#2366;&#2354;&#2360;&#2381;&#2357;&#2366;&#2350;&#2368; &#2346;&#2379;&#2354;&#2381;&#2335;&#2381;&#2352;&#2368; &#2325;&#2375; &#2325;&#2381;&#2359;&#2375;&#2340;&#2381;&#2352; &#2350;&#2375;&#2306; 35 &#2360;&#2375; &#2309;&#2343;&#2367;&#2325; &#2357;&#2352;&#2381;&#2359;&#2379;&#2306; &#2325;&#2375; &#2309;&#2344;&#2369;&#2349;&#2357; &#2325;&#2375; &#2360;&#2366;&#2341; &#2319;&#2325; &#2346;&#2358;&#2369; &#2330;&#2367;&#2325;&#2367;&#2340;&#2381;&#2360;&#2325; &#2361;&#2376;&#2404; &#2357;&#2361; &#2346;&#2379;&#2354;&#2381;&#2335;&#2381;&#2352;&#2368; &#2325;&#2375; &#2325;&#2381;&#2359;&#2375;&#2340;&#2381;&#2352; &#2350;&#2375;&#2306; &#2319;&#2325; &#2360;&#2350;&#2381;&#2350;&#2366;&#2344;&#2367;&#2340; &#2324;&#2352; &#2309;&#2330;&#2381;&#2331;&#2368; &#2340;&#2352;&#2361; &#2360;&#2375; &#2350;&#2366;&#2344;&#2381;&#2351;&#2340;&#2366; &#2346;&#2381;&#2352;&#2366;&#2346;&#2381;&#2340; &#2357;&#2381;&#2351;&#2325;&#2381;&#2340;&#2367; &#2361;&#2376;&#2306;&#2404; &#2313;&#2344;&#2361;&#2379;&#2344;&#2375;  &#2325;&#2312; &#2350;&#2369;&#2352;&#2381;&#2327;&#2368; &#2326;&#2375;&#2340;&#2379;&#2306; &#2325;&#2368; &#2360;&#2381;&#2341;&#2366;&#2346;&#2344;&#2366; &#2325;&#2368; &#2361;&#2376; &#2404; &#2357;&#2361; &#2352;&#2366;&#2359;&#2381;&#2335;&#2381;&#2352;&#2368;&#2351; &#2309;&#2306;&#2337;&#2375; &#2324;&#2352; &#2330;&#2367;&#2325;&#2344; &#2360;&#2306;&#2357;&#2352;&#2381;&#2343;&#2344; &#2346;&#2352;&#2367;&#2359;&#2342; (&#2319;&#2344; &#2312; &#2360;&#2368; &#2346;&#2368; &#2360;&#2368;) &#2325;&#2375; &#2309;&#2343;&#2381;&#2351;&#2325;&#2381;&#2359; &#2361;&#2376;&#2306;&#2404; &#2357;&#2361; &#2352;&#2366;&#2359;&#2381;&#2335;&#2381;&#2352;&#2368;&#2351; &#2319;&#2327; &#2360;&#2350;&#2344;&#2381;&#2357;&#2351; &#2360;&#2350;&#2367;&#2340;&#2367; (&#2319;&#2344; &#2312; &#2360;&#2368; &#2360;&#2368;) &#2325;&#2375; &#2360;&#2354;&#2366;&#2361;&#2325;&#2366;&#2352; &#2349;&#2368; &#2361;&#2376;&#2306;
+                                </p>
+                                <p ng-switch-when="telugu"> &#3105;&#3134;&#3093;&#3149;&#3103;&#3120;&#3149; &#3093;&#3142;. &#3116;&#3134;&#3122;&#3128;&#3149;&#3125;&#3134;&#3118;&#3135; &#3114;&#3148;&#3122;&#3149;&#3103;&#3149;&#3120;&#3136; &#3120;&#3074;&#3095;&#3074;&#3122;&#3147; 35 &#3087;&#3123;&#3149;&#3122; &#3093;&#3074;&#3103;&#3143; &#3086;&#3093;&#3149;&#3093;&#3137;&#3125; &#3077;&#3112;&#3137;&#3117;&#3125;&#3100;&#3149;&#3102;&#3137;&#3105;&#3144;&#3112; &#3125;&#3144;&#3110;&#3149;&#3119;&#3137;&#3105;&#3135; &#3105;&#3134;&#3093;&#3149;&#3103;&#3120;&#3149;. &#3077;&#3108;&#3112;&#3137; &#3114;&#3148;&#3122;&#3149;&#3103;&#3149;&#3120;&#3136; &#3120;&#3074;&#3095;&#3074;&#3122;&#3147; &#3095;&#3148;&#3120;&#3125;&#3112;&#3136;&#3119; &#3118;&#3120;&#3135;&#3119;&#3137; &#3116;&#3134;&#3095;&#3134; &#3095;&#3137;&#3120;&#3149;&#3108;&#3135;&#3074;&#3114;&#3137; &#3114;&#3146;&#3074;&#3110;&#3135;&#3112; &#3125;&#3149;&#3119;&#3093;&#3149;&#3108;&#3135;. &#3077;&#3108;&#3112;&#3137; &#3077;&#3112;&#3143;&#3093; &#3093;&#3147;&#3123;&#3149;&#3123; &#3114;&#3146;&#3122;&#3134;&#3122;&#3137; &#3087;&#3120;&#3149;&#3114;&#3134;&#3103;&#3137; &#3098;&#3143;&#3128;&#3135; &#3128;&#3149;&#3109;&#3135;&#3120;&#3136;&#3093;&#3120;&#3135;&#3074;&#3098;&#3134;&#3105;&#3137; . &#3077;&#3108;&#3112;&#3137; &#3100;&#3134;&#3108;&#3136;&#3119; &#3095;&#3137;&#3105;&#3149;&#3105;&#3137; &#3118;&#3120;&#3135;&#3119;&#3137; &#3093;&#3147;&#3105;&#3135; &#3114;&#3149;&#3120;&#3118;&#3147;&#3127;&#3112;&#3149; &#3093;&#3148;&#3112;&#3149;&#3128;&#3135;&#3122;&#3149; &#3077;&#3111;&#3149;&#3119;&#3093;&#3149;&#3127;&#3137;&#3105;&#3137; (N.E.C.P.C). &#3077;&#3108;&#3112;&#3137; &#3112;&#3143;&#3127;&#3112;&#3122;&#3149; &#3086;&#3095;&#3149; &#3093;&#3147;&#3078;&#3120;&#3149;&#3105;&#3135;&#3112;&#3143;&#3127;&#3112;&#3149; &#3093;&#3118;&#3135;&#3103;&#3136; (&#3086;&#3112;&#3149;.&#3079;.&#3128;&#3135;.&#3128;&#3135;) &#3128;&#3122;&#3129;&#3134;&#3110;&#3134;&#3120;&#3137;&#3105;&#3137;.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                   
+                </div>
+            </div>       
+        </div>
+        <span class="row" ng-if="selectedTag"></span>
+        <div class="panel-group container">
+            <div class="panel panel-primary  swither" ng-switch-when="english" >
+
+
+                <div class="panel-heading">{{getTranslation('aboutus')|uppercase}}</div>
+                <!--<h2 style="text-align: center">  About Us </h2>--> 
+                <div  class="panel-body">
+                    <p>Decvin Labs was founded in 1992 by a team of young entrepreneurs who believed in improving the quality of life of poultry, thereby improving the quality of life of farmers. We initiated the company to provide to the need of the farmers and the veterinary doctors.
+                    </p>
+                    <p>
+                        There was tremendous necessity for providing quality feed supplements mainly to the poultry farmers while being cost effective. Poor quality of feed supplements resulted in problems in the poultry e.g. reduced egg production,  leg weakness,   poor overall health of the bird etc. The farmer was looking for solutions for the problems. There were many manufacturers in the market who did not understand the necessity of the quality in feed supplement requirements. We started the company with a hope to be an answer to the situation.
+                    </p>
+                    <p>
+                        We are recognized as an organization that stands for quality and values. We take pride in gaining confidence and retaining our customers. As a result of continued perseverance and dedication, we have always been recognized for the consistency of quality and trust. We work closely with our customers while keeping their best interest in our minds always, thus we have been able to retain almost all of our customers since inception
+                    </p>
+                    <p>
+
+                        Our future plans are to expand our territory and to foray into Aquaculture and special therapeutic categories for other companion animals.Our aim is to become the partner of choice for veterinarians, feed manufacturers and animal caregivers.
+                    </p>
+                </div>
+            </div>
+            <div class=" panel panel-primary swither"  ng-switch-when="hindi" >
+                <div class="panel-heading">हमारे बारे में : </div>
+                <div  class="panel-body">
+                    <p>Decvin लैब्स, जिससे किसानों के जीवन की गुणवत्ता में सुधार, मुर्गी पालन के जीवन की गुणवत्ता में सुधार लाने में विश्वास करने वाले युवा उद्यमियों के एक दल द्वारा 1992 में स्थापित किया गया था I हमने यह कंपनी किसानों और पशु चिकित्सकों की जरूरतों को उपलब्ध कराने के लिए शुरू की </p>
+                    <p>पोल्ट्री किसानों को मुख्य रूप से गुणवत्ता फ़ीड की खुराक प्रभावी लागत में प्रदान करने की बहुत जरूरत थी । फ़ीड की खुराक की खराब गुणवत्ता के परिणामस्वरूप कम अंडा उत्पादन, पैरों में कमजोरी, पक्षी के गरीब समग्र स्वास्थ्य आदि I किसान समस्याओं के समाधान के लिए देख रहा थाI बाजार में कई निर्माता थे पर वे फ़ीड पूरक आवश्यकताओं में गुणवत्ता के महत्व को समझ नही पा रहे थे। हम इस स्थिति के लिए जवाब बनना चाहते थे, इसी उम्मीद के साथ कंपनी की शुरुआत हुईI
+                        हम गुणवत्ता और मूल्यों के लिए खड़े एक संगठन के रूप में मान्यता प्राप्त कर रहे हैंI हम विश्वास पाने और हमारे ग्राहकों को बनाए रखने में गर्व महसूस करते हैं। कभी ना समाप्त होने वाले दृढ़ता और समर्पण के परिणाम के रूप में, हमें हमेशा गुणवत्ता और विश्वास की स्थिरता के लिए मान्यता दी गई हैI हमेशा हमारे मन में अपने सर्वोत्तम हित रखते हुए हम इस प्रकार हम स्थापना के बाद से लगभग सभी हमारे ग्राहकों का बनाए रखने के लिए सक्षम किया गया है, हमारे ग्राहकों के साथ मिलकर काम करते हैंI</p>
+                    <p>हमारी भविष्य की योजनाओं में हमारे क्षेत्र का विस्तार और जलीय कृषि और अन्य साथी जानवरों के लिए विशेष चिकित्सीय श्रेणियों में प्रवेश करने हैंI हमारा उद्देश्य पशु चिकित्सकों, फीड निर्माताओं और पशु देखभाल करने वालों के लिए पसंद की साथी होना है।</p>
+                </div>
+
+            </div>
+            <div class="panel panel-primary swither" ng-switch-when="telugu">
+                <div class="panel-heading">మా గురించి : </div>
+                <div  class="panel-body">
+                    <p>
+                        కోళ్ళ పెంపకంలో నాణ్యతా ప్రమాణాలను పెంపొందించడం ద్వారా సంబంధిత రైతుల జీవనాభివృద్ధికై కృషి చెయ్యవచ్చని విశ్వసించిన ఒక యువ ఔత్సాహిక బృందం 1992 లో డెక్విన్ లాబ్స్ ను స్థాపించడం జరిగింది. ముందుగా కోళ్ళ పెంపకంపై ఆధారపడ్డ రైతులు మరియు జంతువైద్యుల అవసరాలకు అనుగుణంగా ఇక్కడ సేవలు ప్రారంభమయ్యాయి.
+
+                    </p>
+
+                    <p>
+                        సమర్థవంతమైన ఖర్చుతో కూడిన కోళ్ళ సంబంధ ఆహారసరుకులను నాణ్యత లోపించకుండా రైతులకు అందించడానికి  విపరీతమైన అవసరం ఏర్పడింది.  కోళ్ళకు అందించే ఆహారంలో నాణ్యత లోపించడం వల్ల గుడ్ల ఉత్పత్తిలో తరుగుదల, కాళ్ళ బలహీనత, ఇతర ఆరోగ్య సమస్యలు తలెత్తుతాయి. వీటివల్ల రైతుకు అపారనష్టం కలుగుతుంది. మార్కెత్లో అనేకమంది తయారీదారులున్నా నాణ్యతకున్న ఆవశ్యకతను గుర్తించలేదు. ఈ పరిస్థితికి సమాధానం చెప్పాలన్న ఆశతో మేము ఈ సంస్థను స్థాపించాం.
+                    </p>
+                    <p>
+                        అనతికాలంలోనే మా సంస్థ నాణ్యత, విలువలకు అద్దంపట్టేదిగా గుర్తించబడింది. దీనివల్ల విశ్వసనీయత పొంది మా ఉత్పత్తులను వాడే వినియోగదారులను నిలబెట్టుకోవడం మాకు గర్వకారణం.  పట్టుదల, అంకితభావంతో ముందుకు వెళ్తూ రాజీలేని నాణ్యత, నమ్మకానికి మారుపేరుగా ఉన్నాం. ఎల్లప్పుడూ వినియోగదారుల అవసరాలకు అనుగుణంగా ఉత్తమోత్తమ కృషి చేయడం వల్ల, సంస్థ ప్రారంభం నుంచి కొనుగోలు మొదలుపెట్టిన ఖాతాదారులు దాదాపు అందరూ మా ఉత్పత్తులే ఇప్పటికీ వాడుతున్నారు. 
+
+                    </p>
+                    <p>
+                        చేపలసేద్యం, ఇతర అనుబంధ జంతుచికిత్సా విభాగాలలో మా భవిష్యత్తు ప్రణాళికలు విస్తరించే పనిలో ఉన్నాం. జంతుసంబంధ ఆహార తయారీదారులు, జంతు సంరక్షకులు మరియు పశువైద్యుల సేవలలో  ఎల్లప్పుడూ ప్రథమ భాగస్వాములుగా ఉండాలన్నదే మా లక్ష్యం.
+                    </p>
+                </div>
+            </div>
+
+
+        </div></div>
+    <div class="col-md-4">
+        <div class="col-md-3" style="width:85%">
+            <aside class="sidebar">
+
+                <div class="panel-group" id="accordion">
+                    <div class="panel panel-default">
+                        <!--										<div class="panel-heading">
+                                                                                                                <h4 class="panel-title">
+                                                                                                                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                                                                                                                        
+                                                                                                                                OUR SERVICES 
+                                                                                                                        </a>
+                                                                                                                </h4>
+                                                                                                        </div>-->
+                        <div class="list-group">
+                            <a href="#/AboutUs/Slogan" class="list-group-item" ng-class="selectedTag=='Slogan'?'active':''">
+                                <h4 class="list-group-item-heading">{{getTranslation('Slogan')}}</h4>      
+                            </a>
+                            <a href="#/AboutUs/Mission" class="list-group-item" ng-class="selectedTag=='Mission'?'active':''">
+                                <h4 class="list-group-item-heading">{{getTranslation('Mission')}}</h4>
+
+                            </a>
+                            <a href="#/AboutUs/Vision" class="list-group-item" ng-class="selectedTag=='Vision'?'active':''">
+                                <h4 class="list-group-item-heading">{{getTranslation('Vision')}}</h4>
+
+                            </a>
+                            <a href="#/AboutUs/Culture" class="list-group-item" ng-class="selectedTag=='Culture'?'active':''">
+                                <h4 class="list-group-item-heading">{{getTranslation('Culture')}}</h4>
+
+                            </a>                                                                                
+                            <a href="#/AboutUs/CoreValues" class="list-group-item" ng-class="selectedTag=='CoreValues'?'active':''">
+                                <h4 class="list-group-item-heading">{{getTranslation('CoreValues')}}</h4>
+
+                            </a>
+                            <a href="#/AboutUs/ManagementTeam" class="list-group-item" ng-class="selectedTag=='ManagementTeam'?'active':''">
+                                <h4 class="list-group-item-heading">{{getTranslation('ManagementTeam')}}</h4>
+
+                            </a>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+
+
+
+                <hr>
+
+
+
+            </aside>
+        </div>
+
+
+    </div>
+
+</div>
+<span class="row" ></span>
+
+<div class="container" ng-switch on="language"  >
+
+</div>
+
+
+
+
+
+
+<!--स्लोगन / टैगलाइन: 
+
+मिशन: हमारी प्रतिबद्धता हमारे ग्राहकों के लिए सबसे अच्छा मूल्य बनाने के लिए प्रतिस्पर्धी कीमतों पर गुणवत्ता के उत्पादों और सेवाओं की पेशकश करने के लिए हैI
+
+
+
+विजन: हमारी दृष्टि अपनी पहुंच के भीतर अच्छी गुणवत्ता पशु उत्पादों को लाने के लिए हैI
+
+संस्कृति: हम हमारे सहयोगियों और ग्राहकों को परिवार मानते हैं ।
+
+बुनियादी मूल्य :
+
+.ग्राहक प्रतिबद्धता और फोकस
+
+.व्यक्तिगत ईमानदारी और जवाबदेही
+
+. गुणवत्ता उत्पाद और सेवाएँ
+
+ .त्वरित और कुशल संचार
+
+. टीम वर्क पर जोर देना और प्रोत्साहित करना
+
+.साथी प्राणियों और जानवरों के लिए सम्मान जीत 
+
+. भावुक और निर्धारित जीत के लिए मन
+
+
+
+प्रबंधन टीम
+
+डॉ एन नागेश्वर राव पोल्ट्री के क्षेत्र में अनुभव के 40 से अधिक वर्षों के साथ एक पशु चिकित्सक हैI उन्हे पोल्ट्री के क्षेत्र में अच्छी तरह से मान्यता प्राप्त है और वे इस क्षेत्र के सम्मानित व्यक्ति है । उनहोने कई लोगों की मदद की और कई पोल्ट्री फार्मों को स्थिर किया ।
+
+Dr.T. रमेश एक पशु चिकित्सक और पोल्ट्री के क्षेत्र में अनुभव के 25 से अधिक वर्षों के साथ एक सलाहकार है. वह मुर्गी पालन से संबंधित मुद्दों पर ग्राहकों को सलाह देतें है।-->

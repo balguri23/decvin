@@ -1,0 +1,46 @@
+
+<div class="container productsdiv" > 
+    <div class="products panel">
+        <div class="row" >
+            <div class="col-md-6">
+                <div class="well-sm "  > 
+                    <div class="logo"><img src="images/chickenicon.png" alt="Chicken"/> </div><div class="text"> <h2><a href="#/ProductDetails/Poultry">{{getTranslation('poultry')}}</a></h2></div>
+
+                </div>
+                
+                <div class="well-sm " ng-if="permissions.Fish"> 
+                    <div class="logo"><img src="images/icons/fishicon.jpeg" alt="Fish"/> </div><div class="text"> <h2><a href="#/ProductDetails/Fish">{{getTranslation('fish')}}</a></h2></div>
+
+                </div>
+                <div class="well-sm " ng-if="permissions.Shirmp"> 
+                    <div class="logo"><img src="images/icons/shrimpicon.png" alt="Shirmp"/> </div><div class="text"> <h2><a href="#/ProductDetails/Shrimp">{{getTranslation('shrimp')}}</a></h2></div>
+
+                </div>               
+                <div class="well-sm " ng-if="permissions.Dog"> 
+                    <div class="logo"><img src="images/icons/dogicon.jpeg" alt="Dog"/> </div><div class="text"> <h2><a href="#/ProductDetails/Dog">{{getTranslation('dog')}}</a></h2></div>
+
+                </div>
+            </div>
+            <div class="col-md-6"> 
+               
+                <div class="well-sm " ng-if="permissions.Horse"> 
+                    <div class="logo"><img src="images/icons/horseicon.jpeg" alt="Horse"/> </div><div class="text"> <h2><a href="#/ProductDetails/Horse">{{getTranslation('horse')}}</a></h2></div>
+
+                </div>
+                <div class="well-sm " ng-if="permissions.Cow"> 
+                    <div class="logo"><img src="images/icons/cowicon.jpeg" alt="Cow"/> </div><div class="text"> <h2><a href="#/ProductDetails/Cow">{{getTranslation('cow')}}</a></h2></div>
+
+                </div>
+                <div class="well-sm " ng-if="permissions.Pig"> 
+                    <div class="logo"><img src="images/icons/pigicon.jpeg" alt="Pig"/> </div><div class="text"> <h2><a href="#/ProductDetails/Pig">{{getTranslation('pig')}}</a></h2></div>
+
+                </div>
+                 <div class="well-sm " ng-if="permissions.Cat"> 
+                    <div class="logo"><img src="images/icons/caticon.jpeg" alt="Cat"/> </div><div class="text"> <h2><a href="#/ProductDetails/Cat">{{getTranslation('cat')}}</a></h2></div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
