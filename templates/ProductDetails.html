@@ -1,83 +1,1 @@
-
-<div class="panel panel-primary" >
-    <div class="panel-body">
-        <div class="well-sm" style="text-align: center">
-            <div style="display: inline-block;padding-left: 10px;vertical-align: middle;" class="logo"><div style="font-size: 30px;display: inline-block;color: #0088CC;padding-right: 10px;" class="ng-binding"> {{getTranslation(category)| uppercase }}  </div><img src="images/chickenicon.png" alt="Chicken" style="width:50px;height:50px;margin-top: -14px;/* padding-left: 10px; */"> </div>
-        </div>
-    </div>
-</div>
-<div class="panel panel-primary" ng-if="productid" ng-repeat="item in productList | filter:{id:productid}">
-    <div class="panel-heading">{{getTranslation(category) }} - {{getTranslation(productid) }}</div>
-    <div class="panel-body">
-        <div class="well row">
-            <div class="col-md-6" id="enlarge" > <img ng-src="{{item.imagePath}}" class="md-avatar" alt="{{getTranslation(category) }} - {{getTranslation(productid) }}" style="width: 90%;position: relative;margin-Left: 5%;" onError="this.onerror=null;this.src='images/logo3.jpg';" />
-                
-            
-            </div>
-            <div class="col-md-6">
-                <div class="well" >
-                    <p ng-repeat="item1 in item.desc" ng-if="language=='english'"> {{item1}} </p>
-                     <p ng-repeat="item1 in item.descHindi" ng-if="language=='hindi'" > {{item1}} </p>
-                      <p ng-repeat="item1 in item.descTelugu" ng-if="language=='telugu'"> {{item1}} </p>
-                </div>
-                <div class="well" >  <a href="#/ContactUs/Enquiry/{{category}}/{{productid}}" title="Click to view Details">{{getTranslation('enquirenow') }}</a> </div>
-                <div class="well row"  ng-if="item.products">
-
-                    <div class="well col-md-4" ng-repeat="product in item.products">
-                        <div class="panel panel-primary"  style="">
-
-                            <div class="panel-heading">{{getTranslation(product.id) }}</div>
-                            <div class="panel-body">
-                                <!--              <ul class="enlarge">
-                                                  <li><img ng-src="{{item.imageCoverPath}}" width="180px" height="180px" class="md-avatar" alt="{{item.name}}" /><span><img ng-src="{{item.imagePath}}" alt="{{item.name}}" width="280px" height="280px"/><br />{{item.name}}</span></li></ul>-->
-                                <!--<a href="#/ProductDetails/{{category}}/{{item.id}}" title="Click to view Details" style="height:100%">-->            
-                                <img ng-src="{{product.imageCoverPath}}" class="md-avatar productimg img-responsive img-thumbnail" alt="{{product.name}}" onError="this.onerror=null;this.src=product.imagePath;" style="" />
-                                <!--</a>-->
-                                <div class="wrapword">
-                                    <p ng-repeat="line in product.desc" ng-if="language=='english'"> {{line}} </p>
- <p ng-repeat="line in product.descHindi" ng-if="language=='hindi'"> {{line}} </p>
-  <p ng-repeat="line in product.descTelugu" ng-if="language=='telugu'"> {{line}} </p>
-
-
-                                </div>
-                            </div>
-
-                        </div>
-
-                    </div>
-
-
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="panel panel-primary" >
-    <div class="panel-heading">   </div>
-    <div class="panel-body row" style="height:30%">
-        <div class="well col-md-3" ng-repeat="item in productList | orderBy:'order'">
-            <div class="panel panel-primary"  style="">
-
-                <div class="panel-heading">{{getTranslation(item.id) }}</div>
-                <div class="panel-body">
-                    <!--              <ul class="enlarge">
-                                      <li><img ng-src="{{item.imagePath}}" width="180px" height="180px" class="md-avatar" alt="{{item.name}}" /><span><img ng-src="{{item.imagePath}}" alt="{{item.name}}" width="280px" height="280px"/><br />{{item.name}}</span></li></ul>-->
-                    <a href="#/ProductDetails/{{category}}/{{item.id}}" title="Click to view Details" style="height:100%">            
-                        <img ng-src="{{item.imageCoverPath}}" class="md-avatar productimg img-responsive img-thumbnail" alt="{{item.name}}"  altpath="{{product.imagePath}}" onError="this.onerror=null;this.src=this.altpath?this.altpath:'/images/logo3.jpg';" style="" /></a>
-                    <div class="itemtext wrapword" ng-if="language=='english'">
-                        {{item.tagline}}
-                    </div>
-                    <div class="itemtext wrapword" ng-if="language=='hindi'">
-                        {{item.taglineHindi}}
-                    </div>
-                    <div class="itemtext wrapword" ng-if="language=='telugu'">
-                        {{item.taglineTelugu}}
-                    </div>
-                </div>
-
-            </div>
-
-        </div> </div>
-</div>
-
-
+<div class="panel panel-primary">    <div class="panel-body">        <div class="well-sm" style="text-align: center">            <div style="display: inline-block;padding-left: 10px;vertical-align: middle;" class="logo">                <div style="font-size: 30px;display: inline-block;color: #0088CC;padding-right: 10px;"                     class="ng-binding"> {{getTranslation(category)| uppercase }}                </div>                <img src="images/chickenicon.png" alt="Chicken"                     style="width:50px;height:50px;margin-top: -14px;/* padding-left: 10px; */"></div>        </div>    </div></div><!-- Modal --><div class="modal fade" id="myModal" role="dialog" style="z-index: 10001">    <div class="modal-dialog  modal-lg ">        <!-- Modal content-->        <div class="modal-content">            <div class="modal-header">                <button type="button" class="close" data-dismiss="modal">&times;</button>                <h4 class="modal-title">Productdetails</h4>            </div>            <div class="modal-body">                <div class="panel panel-primary" ng-if="productid" ng-repeat="item in productList | filter:{id:productid}">                    <div class="panel-heading">{{getTranslation(category) }} - {{getTranslation(productid) }}</div>                    <div class="panel-body">                        <div class="well row">                            <div class="col-md-6" id="enlarge" > <img ng-src="{{item.imagePath}}" class="md-avatar" alt="{{getTranslation(category) }} - {{getTranslation(productid) }}" style="width: 90%;position: relative;margin-Left: 5%;" onError="this.onerror=null;this.src='images/logo3.jpg';" />                            </div>                            <div class="col-md-6">                                <div class="well" >                                    <p ng-repeat="item1 in item.desc" ng-if="language=='english'"> {{item1}} </p>                                    <p ng-repeat="item1 in item.descHindi" ng-if="language=='hindi'" > {{item1}} </p>                                    <p ng-repeat="item1 in item.descTelugu" ng-if="language=='telugu'"> {{item1}} </p>                                </div>                                <div class="well" >  <a href="#/ContactUs/Enquiry/{{category}}/{{productid}}" title="Click to view Details">{{getTranslation('enquirenow') }}</a> </div>                                <div class="well row"  ng-if="item.products">                                    <div class="well col-md-4" ng-repeat="product in item.products">                                        <div class="panel panel-primary"  style="">                                            <div class="panel-heading">{{getTranslation(product.id) }}</div>                                            <div class="panel-body">                                                <!--              <ul class="enlarge">                                                                  <li><img ng-src="{{item.imageCoverPath}}" width="180px" height="180px" class="md-avatar" alt="{{item.name}}" /><span><img ng-src="{{item.imagePath}}" alt="{{item.name}}" width="280px" height="280px"/><br />{{item.name}}</span></li></ul>-->                                                <!--<a href="#/ProductDetails/{{category}}/{{item.id}}" title="Click to view Details" style="height:100%">-->                                                <img ng-src="{{product.imageCoverPath}}" class="md-avatar productimg img-responsive img-thumbnail" alt="{{product.name}}" onError="this.onerror=null;this.src=product.imagePath;" style="" />                                                <!--</a>-->                                                <div class="wrapword">                                                    <p ng-repeat="line in product.desc" ng-if="language=='english'"> {{line}} </p>                                                    <p ng-repeat="line in product.descHindi" ng-if="language=='hindi'"> {{line}} </p>                                                    <p ng-repeat="line in product.descTelugu" ng-if="language=='telugu'"> {{line}} </p>                                                </div>                                            </div>                                        </div>                                    </div>                                </div>                            </div>                        </div>                    </div>                </div>            </div>            <div class="modal-footer">                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>            </div>        </div>    </div></div><div class="panel panel-primary" >    <div class="panel-heading">   </div>    <div class="panel-body row" style="height:30%">        <div class="well col-md-3" ng-repeat="item in productList | orderBy:'order'">            <div class="panel panel-primary"  style="">                <div class="panel-heading">{{getTranslation(item.id) }}</div>                <div class="panel-body">                    <!--              <ul class="enlarge">                                      <li><img ng-src="{{item.imagePath}}" width="180px" height="180px" class="md-avatar" alt="{{item.name}}" /><span><img ng-src="{{item.imagePath}}" alt="{{item.name}}" width="280px" height="280px"/><br />{{item.name}}</span></li></ul>-->                    <div   data-toggle="modal" data-target="#myModal"  title="Click to view Details" style="height:100%;cursor: pointer" ng-click="updateSelected(item.id)">                        <img ng-src="{{item.imageCoverPath}}" class="md-avatar productimg img-responsive img-thumbnail" alt="{{item.name}}"  altpath="{{product.imagePath}}" onError="this.onerror=null;this.src=this.altpath?this.altpath:'/images/logo3.jpg';" style="" /></div>                    <div class="itemtext wrapword" ng-if="language=='english'">                        {{item.tagline}}                    </div>                    <div class="itemtext wrapword" ng-if="language=='hindi'">                        {{item.taglineHindi}}                    </div>                    <div class="itemtext wrapword" ng-if="language=='telugu'">                        {{item.taglineTelugu}}                    </div>                </div>            </div>        </div> </div></div>
